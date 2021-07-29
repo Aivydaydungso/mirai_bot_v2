@@ -83,19 +83,12 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
     git clone https://github.com/miraipr0ject/miraiv2.git miraiv2
     ``` 
 
-4. Cài đặt các package cần thiết
-    1. Mở cmd/terminal ở thư mục bot, LƯU Ý thư mục đó phải có file package.json
-    2. Nhập
-    ```sh
-    npm install
-    ```
-
-5. Chỉnh sửa file config
+4. Chỉnh sửa file config
     1. Mở file config.json thông qua notepad++ hoặc sublime text 3 đã cài đặt ở trên
     2. tùy chỉnh mail, password, tên bot, ...
     3. Sao lưu và đóng lại
 
-6. Lấy appstate
+5. Lấy appstate
     - Bạn có thể sử dụng fbstate của c3c bot, nhưng cần đổi tên lại thành appstate.json hoặc đổi lại tên trong phần config.json như bước ở trên
     1. Nhập
     ```sh
@@ -104,7 +97,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
     2. Nhập mã xác thực hai lớp
     3. Nếu trên cmd/terminal hiện ```Đã ghi xong appstate``` tức là appstate của bạn đã được lưu lại, còn nếu ra dòng có chữ error thì appstate của bạn chưa được lưu lại, bạn cần phải kiểm tra lại thông tin tài khoản, và kiểm tra xem tài khoản của bạn có phải bị checkpoint hay không.
 
-7. Chạy bot và tận hưởng
+6. Chạy bot và tận hưởng
     1. Nhập
     ```sh
       npm start
